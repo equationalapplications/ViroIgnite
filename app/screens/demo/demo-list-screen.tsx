@@ -1,6 +1,7 @@
-import React, { useEffect, FC } from "react"
+import React, { useEffect, FC, useState } from "react"
 import { FlatList, TextStyle, View, ViewStyle, ImageStyle } from "react-native"
 import { StackScreenProps } from "@react-navigation/stack"
+import { ViroARSceneNavigator, ViroARScene, ViroText, ViroConstants } from "@viro-community/react-viro"
 import { observer } from "mobx-react-lite"
 import { Header, Screen, Text, AutoImage as Image, GradientBackground } from "../../components"
 import { color, spacing } from "../../theme"
@@ -42,6 +43,36 @@ const FLAT_LIST: ViewStyle = {
   paddingHorizontal: spacing[4],
 }
 
+const HelloWorldSceneAR = () => {
+  const [text, setText] = useState('Initializing AR...');
+
+  function onInitialized(state, reason) {
+    console.log('guncelleme', state, reason);
+    if (state === ViroConstants.TRACKING_NORMAL) {
+      setText('Hello World!');
+    } else if (state === ViroConstants.TRACKING_NONE) {
+      // Handle loss of tracking
+    }
+  }
+
+  return (
+    <ViroARScene onTrackingUpdated={onInitialized}>
+      <ViroText
+        text={text}
+        scale={[0.5, 0.5, 0.5]}
+        position={[0, 0, -1]}
+        style={{
+          fontFamily: 'Arial',
+          fontSize: 30,
+          color: '#ffffff',
+          textAlignVertical: 'center',
+          textAlign: 'center',
+        }}
+      />
+    </ViroARScene>
+  );
+};
+
 export const DemoListScreen: FC<StackScreenProps<NavigatorParamList, "demoList">> = observer(
   ({ navigation }) => {
     const goBack = () => navigation.goBack()
@@ -68,19 +99,13 @@ export const DemoListScreen: FC<StackScreenProps<NavigatorParamList, "demoList">
             style={HEADER}
             titleStyle={HEADER_TITLE}
           />
-          <FlatList
-            contentContainerStyle={FLAT_LIST}
-            data={[...characters]}
-            keyExtractor={(item) => String(item.id)}
-            renderItem={({ item }) => (
-              <View style={LIST_CONTAINER}>
-                <Image source={{ uri: item.image }} style={IMAGE} />
-                <Text style={LIST_TEXT}>
-                  {item.name} ({item.status})
-                </Text>
-              </View>
-            )}
-          />
+          <ViroARSceneNavigator
+      autofocus={true}
+      initialScene={{
+        scene: HelloWorldSceneAR,
+      }}
+      style={{flex: 1}}
+    />
         </Screen>
       </View>
     )
