@@ -3602,6 +3602,15 @@
     "@typescript-eslint/types" "4.10.0"
     eslint-visitor-keys "^2.0.0"
 
+"@viro-community/react-viro@^2.22.0":
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/@viro-community/react-viro/-/react-viro-2.22.0.tgz#1b59f800831893b2610a2abbe21b4ee242286002"
+  integrity sha512-l9Qo2HnBEHlu+EVRiELkM8SmF4gY/l3xenobkYLMMZf7YdokOypgxf/2gNRNQSeZ3WWovxOveJfo/3rigYYu5A==
+  dependencies:
+    create-react-class "^15.7.0"
+    prop-types "^15.5.10"
+    react-native-codegen "^0.0.7"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
