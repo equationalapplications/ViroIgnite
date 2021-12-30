@@ -1,7 +1,6 @@
 # ViroReact with Ignite React Native AR/VR
 
-By Kurt VanDusen, Founder, Equational Applications LLC, Grand Rapids, MI, USA.
-[Equational Applications LLC](https://www.equationalapplications.com/)
+By Kurt VanDusen, Founder, [Equational Applications LLC](https://www.equationalapplications.com/), Grand Rapids, MI, USA.
 
 This is an example of adding ViroReact to an existing React Native project. We will start with the boilerplate from Ignite version 7.8.3 and then manually add and link @viro-community/react-viro version 2.22.0 for augmented reality and virtual reality capabilities.
 
