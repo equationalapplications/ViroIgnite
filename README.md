@@ -1,10 +1,14 @@
 # ViroReact with Ignite  
 
-By Kurt VanDusen, sole member, Equational Applications LLC of Grand Rapids, MI, USA.
+By Kurt VanDusen, Founder, Equational Applications LLC, Grand Rapids, MI, USA.
 
 This is an example of adding @viro-community/react-viro to an existing React Native project. We will start with the boilerplate from Ignite and then manually add and link ViroReact for augmented reality capabilities.
 
 [ViroCommunity ViroReact on GitHub](https://github.com/ViroCommunity/viro)
+
+## How to Install Viro in an existing project?
+
+If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://github.com/ViroCommunity/viro/blob/main/readmes/INSTALL.md). Please note that this does _not_ work with Expo Managed Workflows. Sorry!
 
 ## The latest and greatest boilerplate for Infinite Red opinions
 
@@ -35,7 +39,3 @@ If `npx react-native run-android` fails with EACCESS gradlew.bat or EACCESS grad
 The variant arguments are not needed for debug or release.
 
 You must run ViroReact on a physical device. The Android and iOS emulators are not supported. See [this](https://docs.viromedia.com/docs/installing-viro-android) for more information.
-
-## How to Install Viro in an existing project?
-
-If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://github.com/ViroCommunity/viro/blob/main/readmes/INSTALL.md). Please note that this does _not_ work with Expo Managed Workflows. Sorry!
