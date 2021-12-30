@@ -1,20 +1,15 @@
-# ViroReact with Ignite  
+# ViroReact with Ignite React Native AR/VR
 
 By Kurt VanDusen, Founder, Equational Applications LLC, Grand Rapids, MI, USA.
 [Equational Applications LLC](https://www.equationalapplications.com/)
 
-This is an example of adding @viro-community/react-viro to an existing React Native project. We will start with the boilerplate from Ignite and then manually add and link ViroReact for augmented reality capabilities.
+This is an example of adding ViroReact to an existing React Native project. We will start with the boilerplate from Ignite version 7.8.3 and then manually add and link @viro-community/react-viro version 2.22.0 for augmented reality and virtual reality capabilities.
 
 [ViroCommunity ViroReact on GitHub](https://github.com/ViroCommunity/viro)
 
-## How to Install Viro in an existing project?
+## The latest and greatest boilerplate for React Native
 
-If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://github.com/ViroCommunity/viro/blob/main/readmes/INSTALL.md). Please note that this does _not_ work with Expo Managed Workflows. Sorry!
-
-## The latest and greatest boilerplate for Infinite Red opinions
-
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
-
+Start with Ignite [Ignite React Native stack](https://github.com/infinitered/ignite)
 
 Currently includes:
 
@@ -23,6 +18,10 @@ Currently includes:
 - MobX State Tree
 - TypeScript
 - And more!
+
+## How to Install Viro in an existing project?
+
+If you are integrating ViroReact into an existing project, have a look at our [Installation instructions](https://github.com/ViroCommunity/viro/blob/main/readmes/INSTALL.md). Please note that this does _not_ work with Expo Managed Workflows. Sorry!
 
 ## Quick Start
 
