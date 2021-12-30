@@ -3,7 +3,7 @@
 buildscript {
     ext {
         buildToolsVersion = "30.0.2"
-        minSdkVersion = 24  // Bump the minimum SDK version to at least 24 for ViroReact
+        minSdkVersion = 24 // Viro
         compileSdkVersion = 29
         targetSdkVersion = 29
         ndkVersion = "21.4.7075529"
