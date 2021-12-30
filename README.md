@@ -1,4 +1,10 @@
-# Welcome to your new ignited app!
+# ViroReact with Ignite  
+
+This is an example of adding @viro-community/react-viro to an existing React Native project. We will start with the boilerplate from Ignite and then manually add and link ViroReact for augmented reality capabilities.
+
+[ViroCommunity ViroReact on GitHub](https://github.com/ViroCommunity/viro)
+
+## Welcome to your new ignited app!
 
 [![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
 
