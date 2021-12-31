@@ -1,4 +1,5 @@
 # ViroReact with Ignite React Native AR/VR
+Create a React Native stack you can use to build more complex augmented reality / virtual reality projects!
 
 By Kurt VanDusen, Founder, [Equational Applications LLC](https://www.equationalapplications.com/), Grand Rapids, MI, USA.
 
