@@ -38,4 +38,4 @@ If `npx react-native run-android` fails with EACCESS gradlew.bat or EACCESS grad
 The variant arguments are not needed for debug or release.
 
 You must run ViroReact on a physical device. The Android and iOS emulators are not supported.
-Visit the React Native Docs for more information about [running on a device](https://reactnative.dev/docs/running-on-device).
+Visit the React Native docs for more information about [running on a device](https://reactnative.dev/docs/running-on-device).
