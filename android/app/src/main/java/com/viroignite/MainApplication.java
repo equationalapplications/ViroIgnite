@@ -18,7 +18,7 @@ import expo.modules.ReactNativeHostWrapper;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
-import com.viromedia.bridge.ReactViroPackage; // Viro
+import com.viromedia.bridge.ReactViroPackage; // Add this line for ViroReact
 
 public class MainApplication extends Application implements ReactApplication {
   private final ReactNativeHost mReactNativeHost = new ReactNativeHostWrapper(
@@ -36,8 +36,9 @@ public class MainApplication extends Application implements ReactApplication {
         List<ReactPackage> packages = new PackageList(this).getPackages();
         // Packages that cannot be autolinked yet can be added manually here, for example:
         // packages.add(new MyReactNativePackage());
-        // Add this line
-        packages.add(new ReactViroPackage(ReactViroPackage.ViroPlatform.valueOf("AR")));
+
+        packages.add(new ReactViroPackage(ReactViroPackage.ViroPlatform.valueOf("AR"))); // Add this line for ViroReact
+
         packages.add(new ViroIgnitePackage());
 
           return packages;
