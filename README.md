@@ -1,4 +1,5 @@
 # Welcome to your new ignited app!
+version 7.9.0
 
 [![CircleCI](https://circleci.com/gh/infinitered/ignite.svg?style=svg)](https://circleci.com/gh/infinitered/ignite)
 
