@@ -28,6 +28,7 @@ export type NavigatorParamList = {
   demo: undefined
   demoList: undefined
   ar: undefined
+  // 🔥 Your screens go here
 }
 
 // Documentation: https://reactnavigation.org/docs/stack-navigator/
@@ -45,6 +46,7 @@ const AppStack = () => {
       <Stack.Screen name="demo" component={DemoScreen} />
       <Stack.Screen name="demoList" component={DemoListScreen} />
       <Stack.Screen name="ar" component={ArScreen} />
+      {/** 🔥 Your screens go here */}
     </Stack.Navigator>
   )
 }
