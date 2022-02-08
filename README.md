@@ -5,7 +5,7 @@ By Kurt VanDusen, Founder, [Equational Applications LLC](https://www.equationala
 
 You can watch the [YouTube tutorial](https://youtu.be/gX5y2Htvs2Y) which accompanies this repository for complete instructions.
 
-This is an example of adding [ViroCommunity ViroReact](https://github.com/ViroCommunity/viro) to an existing React Native project. We will start with the boilerplate from Ignite version 7.9.0 and then manually add and link @viro-community/react-viro version 2.22.2 for augmented reality and virtual reality capabilities.
+This is an example of adding [ViroCommunity ViroReact](https://github.com/ViroCommunity/viro) to an existing React Native project. We will start with the boilerplate from Ignite version 7.9.0 and then manually add and link @viro-community/react-viro version 2.22.0 for augmented reality and virtual reality capabilities.
 
 ## Start with Ignite boilerplate for React Native
 
